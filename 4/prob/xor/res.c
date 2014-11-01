@@ -15,6 +15,6 @@ int main()
 	for(i = 0; i < sizeof(flag); i++){
 		flag[i] ^= key;
 	}
-	puts(flag);
+	printf(flag);
 	return 0;	
 }
